@@ -6,7 +6,7 @@ Expense tracking app
 
 Rails with React.js front end
 
-An exercise in using React and Bootstrap 
+An exercise in using React and Bootstrap with some simple Ruby logic
 
 Deployed on heroku
 

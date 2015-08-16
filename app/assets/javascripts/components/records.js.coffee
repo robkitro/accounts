@@ -42,7 +42,7 @@
       className: 'records'
       React.DOM.h2
         className: 'title'
-        'Records'
+        'Records, refresh browser after each input- until AJAX !'
       React.DOM.div
         className: 'row'
         React.createElement AmountBox, type: 'success', amount: @credits(), text: 'Credit'
@@ -63,4 +63,4 @@
             React.createElement Record, key: record.id, record: record, handleDeleteRecord: @deleteRecord, handleEditRecord: @updateRecord 
 
 
- 
+
